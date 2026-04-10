@@ -56,22 +56,6 @@ export default function Home() {
           Siempre y para siempre 💕
         </p>
       </div>
-
-      {/* CSS for floating animation */}
-      <style jsx>{`
-        @keyframes float {
-          0%, 100% {
-            transform: translateY(0) rotate(0deg);
-          }
-          50% {
-            transform: translateY(-100vh) rotate(360deg);
-          }
-        }
-
-        .heart-float {
-          animation: float 15s infinite linear;
-        }
-      `}</style>
     </div>
   );
 }

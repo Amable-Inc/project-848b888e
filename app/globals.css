@@ -123,3 +123,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom animations for Karen's page */
+@keyframes heart-float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-100vh) rotate(360deg);
+  }
+}
+
+.heart-float {
+  animation: heart-float 15s infinite linear;
+}
